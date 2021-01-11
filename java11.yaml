@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: java11
+  labels:
+    app: java11
+spec:
+  containers:
+  - name: java11
+    image: itsistemas/java11cronpro   #openjdk:11
+    stdin: true
+    tty: true
+
+    #imagen ok java 11
